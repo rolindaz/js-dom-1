@@ -20,7 +20,7 @@ console.log(switchBtn);
 // call the add event listener method to change the img
 
 switchBtn.addEventListener('click', function() {
-    console.log('clicked');
     mainImg.classList.add('d-none');
     switchedImg.classList.remove('d-none');
 });
+
